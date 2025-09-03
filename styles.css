@@ -1,0 +1,76 @@
+:root {
+    --primary-color: blue;
+    --accent-color1: purple;
+    --accent_color2: orange;
+    --section-background-color: rgb(160, 202, 195);
+    --main-background-color: rgb(124, 197, 198);
+    --text: rgb(0, 0, 0);
+    background-color: var(--main-background-color);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.8;
+    color: var(--text);
+    padding: 0 1rem;
+}
+header, main, footer {
+    max-width:900px;
+    margin: 0 auto;
+    padding: 1rem;
+   background-color: var(--section-background-color);
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.75rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;  
+  gap: 1rem;                 
+  list-style: none;          
+  margin-top: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;     
+  color: var(--text);
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--primary-color);            
+}
+section {
+  margin-bottom: 2rem;
+}
+article {
+  border: 1px solid var(--accent-color1);
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--primary-color);
+  margin-top: 2rem;
+}
