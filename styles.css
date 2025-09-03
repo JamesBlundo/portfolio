@@ -2,8 +2,9 @@
     --primary-color: blue;
     --accent-color1: purple;
     --accent_color2: orange;
-    --section-background-color: rgb(160, 202, 195);
-    --main-background-color: rgb(124, 197, 198);
+    --section-background-color: #adb5bd;
+    --section-background-color2: #ced4da;
+    --main-background-color: #6c757d;
     --text: rgb(0, 0, 0);
     background-color: var(--main-background-color);
 }
@@ -31,6 +32,8 @@ h1 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1rem;
+  background-color: var(--section-background-color);
+
 }
 
 h2 {
